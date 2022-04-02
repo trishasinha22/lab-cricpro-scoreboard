@@ -1,4 +1,97 @@
 /* Type your code here */
+body {
+	background-image: url('./assets/background-image1.png');
+	background-repeat: no-repeat;
+	background-size: 70%;
+	background-attachment: fixed;
+	background-position: right bottom;
+	font-family: Nunito Sans;
+}
+
+h1 {
+	float: right;
+}
+
+h2 {
+	margin: 5%;
+	font-size: 400%;
+	font-weight: bold;
+	text-shadow: 0px 4px 7px #5c5252;
+	line-height: 30%;
+	margin-bottom: 1%;
+}
+
+.sub {
+	font-size: 40%;
+	text-shadow: 0px 0px 0px #5c5252;
+	font-weight: lighter;
+}
+
+table {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 130%;
+	border-collapse: collapse;
+	width: 65%;
+	margin-left: 5%;
+	border: none;
+	background-color: white;
+
+}
+
+tr {
+	border-top: 1px solid rgb(219, 219, 219);
+}
+
+td,
+th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+	border: none;
+}
+
+.band {
+	background-color: rgb(231, 51, 6);
+	color: white;
+}
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.4);
+}   
+.modal-content {
+	background-color: #fefefe;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 35%;
+}
+.close {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+.modal-open{
+	color: rgb(47, 138, 199);
+	cursor: pointer;
+}
+
 
 
 /* change the font family and spacing as per your project font */
